@@ -1,0 +1,99 @@
+
+.search-section {
+    position: relative;
+    height: 105px;
+}
+
+.search-section .left {
+    float: left;
+    height: 61px;
+    width: 176px;
+}
+
+.search-section .left a {
+    display: block;
+    margin-top: 25px;
+    height: 100%;
+    background: url(../images/logo.png) no-repeat;
+}
+
+.search-section .center {
+    position: absolute;
+    width: 538px;
+    height: 36px;
+    top: 50%;
+    margin-top: -18px;
+    left: 50%;
+    margin-left: -269px;
+    border: 2px solid #b1191a;
+}
+
+.search-input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 5px;
+}
+
+.search-btn {
+    float: right;
+    background-color: #b1191a;
+    height: 32px;
+    width: 80px;
+    color: white;
+    font-size: 16px;
+}
+
+.hot-search {
+    position: absolute;
+    width: 538px;
+    height: 25px;    
+    left: 50%;
+    margin-left: -269px;
+    top:75px;
+    line-height: 25px;
+}
+
+.hot-search a {
+    padding: 0 10px;
+}
+
+.search-section .right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 140px;
+    height: 35px;
+    margin-top: -17px;
+    border: #dfdfdf solid 1px;
+    text-align: center;
+    line-height: 33px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.search-section .right::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-left: 5px;
+    color: #b1191a;
+}
+
+.search-section .right::after {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-left: 5px;
+    color: #b1191a;
+}
+
+.shop-cart-count {
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 5px;
+    background-color: #e60012;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}

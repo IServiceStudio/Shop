@@ -1,0 +1,133 @@
+.search-section .left {
+    width: 250px;
+}
+
+.search-section .left a {
+    float: left;
+    width: 176px;
+    height: 61px;
+}
+
+.search-section .left img {
+    float: right;
+    margin-top: 35px;
+    border-left: 1px solid #c81523;
+    padding-left: 10px;
+}
+
+.nev-menu {
+    border-bottom: 2px solid #b1191a;
+}
+
+.nev-menu>.w>ul {
+    height: 49px;
+    line-height: 49px;
+}
+
+.nev-menu>.w>ul>li :nth-of-type(-n+3) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    padding: 0 30px;
+}
+
+.nev-menu>.w>ul>li :nth-of-type(n+3) {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.content-goods>ul>li {
+    box-sizing: content-box;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+.content-goods ul :nth-child(4n) {
+    margin-right: 0;
+}
+
+.content-goods>ul>li:hover {
+    border-top: red solid 1px;
+    border-left: red solid 1px;
+    border-right: red solid 1px;
+}
+
+.goods-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.price {
+    margin: 0 10px;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.price>.ori-price {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.sale-profile {
+    margin: 5px 10px;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.sale-count {
+    float: left;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.process {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 10px;
+    border-radius: 7px;
+    margin-top: 4px;
+    border: red solid 1px;
+}
+
+.process-count {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 8px;
+    background-color: red;
+    transition: width 1s;
+}
+
+.process-count :hover {
+    width: 130px;
+}
+
+.remain {
+    float: left;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.remain>.remian-count {
+    font-size: 16px;
+    color: #e12228;
+}
+
+.buy {
+    /* display: block; */
+    margin-top: 17px;
+    height: 50px;
+    width: 290px;
+    font-size: 20px;
+    color: white;
+    background-color: #b1191a;
+}

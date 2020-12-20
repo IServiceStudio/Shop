@@ -1,0 +1,35 @@
+header {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+header .w {
+    height: 100%;
+}
+
+header .w .left {
+    float: left;
+}
+
+header .w .left .register {
+    color: #c81623;
+    margin-left: 5px;
+}
+
+header .w .right {
+    float: right;
+}
+
+header .w .right ul li {
+    display: inline-block;
+}
+
+header .w .right ul li a {
+    padding: 0 10px;
+    border-left: #666 solid 1px;
+}
+
+header .w .right ul li .first {
+    border-left:none;
+}

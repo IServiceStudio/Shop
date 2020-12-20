@@ -1,0 +1,255 @@
+.nev-menu {
+    height: 47px;
+    border-bottom: 2px solid #b1191a
+}
+
+.nev-menu .w .left {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.nev-menu .w .right {
+    float: left;
+    margin-left: 10px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nev-menu .w .right ul li a {
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+.center {
+    height: 465px;
+}
+
+.center>ul {
+    float: left;
+    width: 210px;
+    height: 465px;
+    background-color:#c81623;
+}
+
+.center>ul li {
+    margin-left:2px;
+    width: 208px;
+}
+
+.center>ul li a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.center>ul li a:hover {
+    background-color: white;
+    color: red;
+}
+
+.banner-center {
+    height: 455px;
+    width: 721px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: url(/images/banner.png) no-repeat top center;
+}
+
+.banner-right {
+    height: 455px;
+    width: 250px;
+    float: right;
+    margin-top: 10px;
+    border: gray solid 1px;
+}
+
+.banner-right-header {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.banner-right-header h2 {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.banner-right-header a {
+    float: right;
+    margin-right: 10px;
+}
+
+.banner-right .banner-right-msg {
+    padding: 5px 15px 0;
+    width: 252px;
+}
+
+.banner-right .banner-right-msg li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
+
+.banner-right-service {
+    overflow: hidden;
+    height: 209px;
+    border-top: 0;
+    border: 1px solid #e4e4e4;
+    margin-top: 5px;
+}
+
+.banner-right-service ul li {
+    float: left;
+    width: 61.5px;
+    height: 71px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.banner-right-service ul li i {
+    display: block;
+    height: 28px;
+    width: 24px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.banner-right-img {
+    margin-top: 6px;
+}
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom-left {
+    float: left;
+    width: 205px;
+    height: 163px;
+    line-height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom-right {
+    float: left;
+}
+
+.recom-right ul li {
+    float: left;
+    position: relative;
+}
+
+.recom-right img {
+    transition: all .2s;
+}
+
+.recom-right img:hover {
+    margin-left: 5px;
+    margin-right: -5px;
+}
+
+.recom-right ul li:nth-of-type(-n+3)::after {
+    content: '';
+    background-color: #ddd;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 145px;
+    width: 1px;
+}
+
+.dianqi-header {
+   height: 30px; 
+   border-bottom: 2px solid #c81623;
+   line-height: 30px;
+   margin-top: 10px;
+}
+
+.dianqi-header h2 {
+    float: left;
+}
+
+.dianqi-header-nav {
+    float: right;
+}
+
+.dianqi-header-nav li {
+    float: left;
+}
+
+.dianqi-header-nav li a {
+    padding: 0 20px;
+}
+
+.dianqi-content {
+    height: 361px;
+}
+
+.dianqi-content>div {
+    float: left;
+    height: 361px;
+}
+
+.dianqi-content .one  {
+    background-color: #f9f9f9;
+    width: 210px;
+    text-align: center;
+}
+
+.dianqi-content .one ul {
+    padding-left: 12px;
+}
+
+.dianqi-content .one li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right:10px;
+}
+
+.dianqi-content img {
+    transition: all .2s;
+}
+
+.dianqi-content img:hover {
+    margin-left: 5px;
+    margin-right: -5px;
+}
+
+.one a img {
+    border:0;
+    vertical-align: middle;
+}
+
+.three-header {
+    border-bottom: 1px solid #ccc
+}
+
+.four {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.five-header {
+    border-bottom: 1px solid #ccc;
+}

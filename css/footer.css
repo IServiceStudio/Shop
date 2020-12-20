@@ -1,0 +1,78 @@
+footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.footer-header {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-header ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.footer-header ul li>h2 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-left: 8px;
+}
+
+.footer-header ul li div {
+    float: left;
+    margin-left: 8px;
+}
+
+.footer-header ul li div h4 {
+    font-size: 14px;
+}
+
+.footer-header ul li div span {
+    font-size: 12px;
+}
+
+.footer-content {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.footer-content dl {
+    float: left;
+    width: 200px;
+}
+
+.footer-content dl:last-child {
+    width: 90px;
+    text-align: center;
+ }
+
+.footer-content dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-content dl li {
+    display: block;
+}
+
+.footer-content>div {
+    float: left;
+}
+
+.footer-content>div>span,
+.footer-content>div>img { 
+    display: block;
+}
+
+.footer-last {
+    text-align: center;
+    padding-top: 20px;
+}
